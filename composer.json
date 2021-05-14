@@ -1,0 +1,13 @@
+{
+    "name": "custom_recording",
+    "type": "drupal-module",
+    "description": "this is module to assing tag to node",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/custom_recording",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/custom_recording",
+        "source": "http://cgit.drupalcode.org/custom_recording",
+    },
+}

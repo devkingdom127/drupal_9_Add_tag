@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_recording.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_recording_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_recording module.
+    case 'help.page.custom_recording':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('this is module to assing tag to node') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function custom_recording_theme() {
+  return [
+    'custom_recording' => [
+      'render element' => 'children',
+    ],
+  ];
+}

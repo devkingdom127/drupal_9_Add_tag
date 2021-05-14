@@ -1,0 +1,5 @@
+name: 'custom_recording'
+type: module
+description: 'this is module to assing tag to node'
+core_version_requirement: ^8.8 || ^9
+package: 'Custom'
